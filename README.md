@@ -6,12 +6,12 @@ Archivos de configuración modificados para OpenStack Ocata
 
 *Nodo de control*
 
-IP: 10.0.1.18
+IP: 10.0.0.18
 Gateway: 10.0.0.1
 
 *Nodo de cómputo*
 
-IP: 10.0.1.17
+IP: 10.0.0.17
 Gateway: 10.0.0.1
 
 Los archivos de configuración están organizados en carpetas `controller` y `compute` y son los correspondientes a los nodos de control y cómputo, respectivamente.
