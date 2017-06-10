@@ -1,15 +1,16 @@
-# Archivos de configuración de OpenStack Ocata
+# Archivos de configuración de OpenStack Ocata
+
 
 Archivos de configuración modificados para OpenStack Ocata
 
 ## Configuración utilizada
 
-*Nodo de control*
+**Nodo de control**
 
 IP: 10.0.0.18
 Gateway: 10.0.0.1
 
-*Nodo de cómputo*
+**Nodo de cómputo**
 
 IP: 10.0.0.17
 Gateway: 10.0.0.1
