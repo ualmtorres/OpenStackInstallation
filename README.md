@@ -18,7 +18,7 @@ Además, se propocionan los archivos de configuración:
 * `/etc/chrony/chrony.conf` (NTP)
 * Memcached
 * MariaDB
-*
+
 ## Configuración utilizada para la modificación
 
 **Nodo de control**
