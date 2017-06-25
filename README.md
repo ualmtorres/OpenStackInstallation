@@ -30,27 +30,28 @@ Utilizaremos para Neutron la opcion 2: _Self-service networks_
 
 ### Nodo de control
 
-| Archivo                                                   | Entorno | Keystone | Glance | Nova | Neutron | Horizon |
-| ----------------------------------------------------------| :-----: | :------: | :----: | :--: | :-----: | :-----: |
-| `/etc/network/interfaces`                                 | X       |          |        |      |         |         |
-| `/etc/hosts`                                              | X       |          |        |      |         |         |
-| `/etc/chrony/chrony.conf`                                 | X       |          |        |      |         |         |
-| `/etc/memcached.conf`                                     | X       |          |        |      |         |         |
-| `/etc/mysql/mariadb.conf.d/99-openstack.cnf`              | X       |          |        |      |         |         |
-| `/etc/keystone/keystone.conf`                             |         | X        |        |      |         |         |
-| `/etc/apache2/apache2.conf`                               |         | X        |        |      |         |         |
-| `/etc/keystone/keystone-paste.ini`                        |         | X        |        |      |         |         |
-| Archivos de credenciales (`openrc-admin` y `openrc-demo`) |         | X        |        |      |         |         |
-| `/etc/glance/glance-api.conf`                             |         |          | X      |      |         |         |
-| `/etc/glance/glance-registry.conf`                        |         |          | X      |      |         |         |
-| `/etc/nova/nova.conf`                                     |         |          |        | X    | X       |         |
-| `/etc/neutron/neutron.conf`                               |         |          |        |      | X       |         |
-| `/etc/neutron/plugins/ml2/ml2_conf.ini`                   |         |          |        |      | X       |         |
-| `/etc/neutron/plugins/ml2/linuxbridge_agent.ini`          |         |          |        |      | X       |         |
-| `/etc/neutron/l3_agent.ini`                               |         |          |        |      | X       |         |
-| `/etc/neutron/dhcp_agent.ini`                             |         |          |        |      | X       |         |
-| `/etc/neutron/metadata_agent.ini`                         |         |          |        |      | X       |         |
-| `/etc/openstack-dashboard/local_settings.py`              |         |          |        |      |         | X       |
+| Archivo                                                   | Entorno | Keystone | Glance | Nova | Neutron | Horizon | Cinder |
+| ----------------------------------------------------------| :-----: | :------: | :----: | :--: | :-----: | :-----: | :----: |
+| `/etc/network/interfaces`                                 | X       |          |        |      |         |         |        |
+| `/etc/hosts`                                              | X       |          |        |      |         |         |        |
+| `/etc/chrony/chrony.conf`                                 | X       |          |        |      |         |         |        |
+| `/etc/memcached.conf`                                     | X       |          |        |      |         |         |        |
+| `/etc/mysql/mariadb.conf.d/99-openstack.cnf`              | X       |          |        |      |         |         |        |
+| `/etc/keystone/keystone.conf`                             |         | X        |        |      |         |         |        |
+| `/etc/apache2/apache2.conf`                               |         | X        |        |      |         |         |        |
+| `/etc/keystone/keystone-paste.ini`                        |         | X        |        |      |         |         |        |
+| Archivos de credenciales (`openrc-admin` y `openrc-demo`) |         | X        |        |      |         |         |        |
+| `/etc/glance/glance-api.conf`                             |         |          | X      |      |         |         |        |
+| `/etc/glance/glance-registry.conf`                        |         |          | X      |      |         |         |        |
+| `/etc/nova/nova.conf`                                     |         |          |        | X    | X       |         | X      |
+| `/etc/neutron/neutron.conf`                               |         |          |        |      | X       |         |        |
+| `/etc/neutron/plugins/ml2/ml2_conf.ini`                   |         |          |        |      | X       |         |        |
+| `/etc/neutron/plugins/ml2/linuxbridge_agent.ini`          |         |          |        |      | X       |         |        |
+| `/etc/neutron/l3_agent.ini`                               |         |          |        |      | X       |         |        |
+| `/etc/neutron/dhcp_agent.ini`                             |         |          |        |      | X       |         |        |
+| `/etc/neutron/metadata_agent.ini`                         |         |          |        |      | X       |         |        |
+| `/etc/openstack-dashboard/local_settings.py`              |         |          |        |      |         | X       |        |
+| `/etc/cinder/cinder.conf`                                 |         |          |        |      |         |         | X      |
 
 
 ### Nodo de cómputo
